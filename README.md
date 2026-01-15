@@ -2,6 +2,8 @@
 
 A React application that calculates and displays reward points earned by customers based on their transaction history over a three-month period.
 
+![Rewards Table](./table.png)
+
 ## Assignment Requirements
 
 A retailer offers a rewards program to its customers, awarding points based on each recorded purchase. A customer receives:
