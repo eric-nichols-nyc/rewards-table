@@ -1,0 +1,44 @@
+.tableContainer {
+  padding: 40px;
+  overflow-x: auto;
+}
+
+.rewardsTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.rewardsTable th {
+  background: #f7fafc;
+  color: #2d3748;
+  font-weight: 600;
+  text-align: left;
+  padding: 16px;
+  border-bottom: 2px solid #e2e8f0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor:pointer;
+}
+
+.rewardsTable td {
+  padding: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+
+.rewardsTable tbody tr {
+  transition: background-color 0.2s;
+}
+
+.rewardsTable tbody tr:hover {
+  background-color: #f7fafc;
+}
+
+.customerName {
+  font-weight: 600;
+  color: #2d3748;
+  text-align: left;
+}
+
